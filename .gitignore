@@ -1,4 +1,4 @@
-gitbook/node_modules
-gitbook/_book
+gitbook2/node_modules
+gitbook2/_book
 vuepress/node_modules
 vuepress/docs/.vuepress/dist/*
