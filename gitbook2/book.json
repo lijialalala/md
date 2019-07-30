@@ -1,0 +1,61 @@
+{
+  "author": "psychola",
+  "description": "This is XX's node service document, powered by gitbook",
+  "extension": null,
+  "generator": "site",
+  "isbn": "",
+  "links": {
+      "sharing": {
+          "all": "",
+          "facebook": null,
+          "google": null,
+          "twitter": null,
+          "weibo": null
+      },
+      "sidebar": {}
+  },
+  "output": null,
+  "pdf": {
+      "fontSize": 12,
+      "footerTemplate": null,
+      "headerTemplate": null,
+      "margin": {
+          "bottom": 36,
+          "left": 62,
+          "right": 62,
+          "top": 36
+      },
+      "pageNumbers": false,
+      "paperSize": "a4"
+  },
+  "plugins": [
+    "anchor-navigation-ex",
+    "-lunr", 
+    "-search", 
+    "search-plus",
+    "tbfed-pagefooter",
+    "expandable-chapters",
+    "prism"
+  ],
+  "pluginsConfig": {
+    "tbfed-pagefooter": {
+      "copyright":"&copy xx",
+      "modify_label": "文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "anchor-navigation-ex":{
+      "multipleH1": false
+   },
+    "theme-default": {
+      "showLevel": true
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-okaidia.css"
+      ]
+   }
+  },
+  "title": "Node GitBook",
+  "variables": {}
+  
+}
